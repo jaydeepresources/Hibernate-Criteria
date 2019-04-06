@@ -70,6 +70,6 @@ public class App {
 
 		transaction.commit();
 		session.close();
-
+//		Criterion c1 = Restrictions.like("attrName", param, MatchMode.ANYWHERE);
 	}
 }
